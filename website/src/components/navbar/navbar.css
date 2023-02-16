@@ -1,0 +1,47 @@
+/* width:"40px",height:"40px",color:"white",background:"blue",borderRadius:"50%" */
+.navlink{
+    display: flex;
+}
+
+.navlink div{
+    color: blanchedalmond;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.navlink div:hover{
+    color: gold;
+    background: #0000003e;
+}
+
+.bg-nav{
+    background: blue;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoFace h1{
+    padding: 7px;
+    font-size: 35px;
+    border-radius: 50%;
+    background: white;
+    color: blue;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background: #05051d88;
+}
+
+.btn-input input{
+    border: none;
+    margin: 10px 20px;
+    background: none;
+    outline: none;
+}
