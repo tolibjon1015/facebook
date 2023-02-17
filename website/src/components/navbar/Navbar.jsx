@@ -1,13 +1,13 @@
 import React from 'react'
 import Logo from '../navbar/components/Logo'
 import FaceLogo from './components/FaceLogo'
-import Input from './components/Input'
+import HeaderIcon from './components/HeaderIcon'
 import "./navbar.css"
 
 function Navbar() {
     return <div className='bg-nav'>
         <FaceLogo />
-        <Input />
+        <HeaderIcon />
         <Logo />
     </div>
 }

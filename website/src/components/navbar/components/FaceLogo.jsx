@@ -1,9 +1,9 @@
-import React from 'react'
 import "../navbar.css"
 
 function FaceLogo() {
   return <div className='logoFace'>
-    <h1>f</h1>
+    <i class="fa-brands fa-facebook"></i>
+    <div className="btn-input"><input type="text" placeholder="salom"/></div>
   </div>
 }
 

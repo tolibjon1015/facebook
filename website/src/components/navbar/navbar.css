@@ -4,44 +4,64 @@
 }
 
 .navlink div{
-    color: blanchedalmond;
+    color: gray;
     cursor: pointer;
     padding: 10px 20px;
+    background: #00000010;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 .navlink div:hover{
-    color: gold;
-    background: #0000003e;
+    color: blue;
 }
 
 .bg-nav{
-    background: blue;
+    background: rgba(0, 0, 0, 0.1);
     height: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 2%;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
-.logoFace h1{
-    padding: 7px;
-    font-size: 35px;
-    border-radius: 50%;
-    background: white;
+.logoFace{
+    display: flex;
+    cursor: pointer;
     color: blue;
-    width: 30px;
-    height: 30px;
+    font-size: 35px;
 }
 
 .btn-input{
-    width: 300px;
+    width: 220px;
     height: 40px;
+    display: grid;
+    align-items: center;
+    padding: 0px 20px;
     border-radius: 20px;
-    background: #05051d88;
+    background: #F0F2F5;
+    margin: 0px 30px;
 }
 
 .btn-input input{
     border: none;
-    margin: 10px 20px;
     background: none;
     outline: none;
+}
+
+.mainIcon i{
+    color: grey;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.mainIcon i:first-child{
+    color: blue;
+}
+
+.mainIcon i:hover{
+    background: #0000000f;
 }

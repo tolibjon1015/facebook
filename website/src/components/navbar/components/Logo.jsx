@@ -3,19 +3,19 @@ import "../navbar.css"
 const data=[
     {
         id:1,
-        name:'Main',
+        name:'Найти друзей',
     },
     {
         id:1,
-        name:'About',
+        name:<i class="fa-solid fa-bars"></i>,
     },
     {
         id:1,
-        name:'Contact',
+        name:<i class="fa-brands fa-facebook-messenger"></i>,
     },
     {
         id:1,
-        name:'Me',
+        name:<i class="fa-solid fa-bell"></i>,
     }
 ]
 

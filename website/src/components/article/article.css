@@ -1,0 +1,27 @@
+.mainCard{
+    padding: 20px 10px;
+    background: rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.mainCard:hover{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: rgba(0, 0, 255, 0.045);
+}
+
+.card p{
+    margin: 0px 20px;
+}
