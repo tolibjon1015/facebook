@@ -1,0 +1,90 @@
+.main{
+    width: 708px;
+    padding: 0px;
+}
+
+.iconIstory{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00ffff63;
+}
+
+.iconIstory i{
+    padding: 13px;
+}
+.istory{
+    display: flex;
+    width: 509px;
+    height: 60px;
+    align-items: center;
+    gap: 20px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.istory h3{
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.istory span{
+    color: #0000009d;
+    font-size: 13px;
+}
+
+/* stream start */
+
+.stream{
+    background: #ffffff;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 0px 20px;
+    height: 140px;
+}
+
+.flex{
+    padding: 20px 0px;
+    display: flex;
+    border-bottom: 1px solid #00000050;
+}
+
+.flex img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.flex input{
+    width: 100%;
+    border-radius: 6px;
+    background: #66666638;
+    padding: 10px;
+    margin: 0px 20px;
+    border:none;
+    outline: none;
+}
+
+.tour{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lived{
+    display: flex;
+    margin-top: 20px;
+}
+
+.lived i{
+    font-size: 20px;
+    color: blue;
+}
+
+.lived span{
+    font-size: 18px;
+    color: #00000084;
+   padding: 0px 5px;
+}

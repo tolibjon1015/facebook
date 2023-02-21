@@ -4,11 +4,11 @@
 }
 
 .navlink div{
-    color: gray;
+    color: black;
     cursor: pointer;
     padding: 10px 20px;
     background: #00000010;
-    margin: 10px;
+    margin: 5px;
     border-radius: 20px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .bg-nav{
-    background: rgba(0, 0, 0, 0.1);
+    background: #ffffff;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -55,13 +55,19 @@
     font-size: 25px;
     cursor: pointer;
     padding: 15px 30px;
-    border-radius: 10px;
+    transition: all 0.3s;
 }
 
 .mainIcon i:first-child{
     color: blue;
+    border-bottom: 4px solid blue;
 }
 
 .mainIcon i:hover{
     background: #0000000f;
+    border-radius: 10px;
+}
+
+.navlink img{
+    margin-top: 5px;
 }
